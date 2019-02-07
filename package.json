@@ -1,0 +1,31 @@
+{
+  "name": "socket-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/osayfun/socket-test.git"
+  },
+  "author": "Omid Seyfan <osayfun>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/osayfun/socket-test/issues"
+  },
+  "homepage": "https://github.com/osayfun/socket-test#readme",
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "http": "0.0.0",
+    "net": "^1.0.2",
+    "socket.io": "^2.2.0",
+    "socket.io-client": "^2.2.0",
+    "telnet-client": "^0.16.2"
+  }
+}
